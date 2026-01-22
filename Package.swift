@@ -15,7 +15,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "candle-swift-http-structured-headers",
+    name: "swift-http-structured-headers",
     products: [],
     targets: []
 )
