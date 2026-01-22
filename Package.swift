@@ -16,34 +16,8 @@ import PackageDescription
 
 let package = Package(
     name: "candle-swift-http-structured-headers",
-    products: [
-        .library(
-            name: "StructuredFieldValues",
-            targets: ["StructuredFieldValues"]
-        ),
-        .library(
-            name: "RawStructuredFieldValues",
-            targets: ["RawStructuredFieldValues"]
-        ),
-    ],
-    targets: [
-        .target(
-            name: "RawStructuredFieldValues",
-            dependencies: []
-        ),
-        .target(
-            name: "StructuredFieldValues",
-            dependencies: ["RawStructuredFieldValues"]
-        ),
-        .executableTarget(
-            name: "sh-parser",
-            dependencies: ["RawStructuredFieldValues"]
-        ),
-        .testTarget(
-            name: "StructuredFieldValuesTests",
-            dependencies: ["RawStructuredFieldValues", "StructuredFieldValues"]
-        ),
-    ]
+    products: [],
+    targets: []
 )
 
 for target in package.targets {
