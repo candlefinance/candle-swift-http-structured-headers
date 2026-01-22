@@ -15,7 +15,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "swift-http-structured-headers",
+    name: "candle-swift-http-structured-headers",
     products: [
         .library(
             name: "StructuredFieldValues",
